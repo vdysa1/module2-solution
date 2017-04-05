@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/** Large Devices **/
+
+body {
+
+	font-family: times;
+}
+
+@media (min-width: 992px) {
+	.col-md-4 {
+		float:left;
+		width: 32%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+		float:left;
+		width: 48%;
+	}
+	.col-sm-12 {
+		float:left;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-xs-12 {
+		float:left;
+		width: 100%;
+	}
+}
+
+
+
+
+div.margin {
+	box-sizing:border-box;
+	border: 2px solid black;
+	margin: 5px;
+	background-color: gray;
+	
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	float: right;
+	border: 2px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+p {
+	
+	clear: right;
+	padding: 10px;
+
+
+}
+h2.pink {
+	background-color:pink;
+}
+
+h2.red {
+	background-color:red;
+}
+
+h2.yellow {
+	background-color:yellow;
+}
+
